@@ -1,0 +1,153 @@
+body {
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+h1 {
+    color: #ff66bb;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+h2 {
+    color: #ff3399;
+    text-align: center;
+    font-size: larger;
+}
+
+div {
+    color: darkgreen;
+    text-align: center;
+    font-size: larger;
+}
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    vertical-align: top;
+    font-size: larger;
+    padding: 10px;
+}
+
+th > a {
+    color:white;
+    font-size: large;
+}
+
+p {
+    color: deeppink;
+    font-size: x-large;
+}
+
+.container input[type="text"] {
+    margin-bottom: 10px; /* Add margin at the bottom of the input box */
+}
+
+.container .buttons {
+    margin-top: 20px; /* Add margin at the top of the buttons */
+}
+
+button {
+    top:50%;
+    background-color: #8787ff;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px rgb(113, 174, 199);
+    min-height:30px;
+    min-width: 120px;
+    font-size: larger;
+}
+button:hover {
+      background-color: #446cda;
+      transition: 0.7s;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+input[type="password"] {
+  background-color: #fff;
+  color: deeppink;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px 0;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+form input[type="text"] {
+            background-color: #fff;
+            color: deeppink;
+            font-size: larger;
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+            box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        form input[type="submit"] {
+            background-color: #8787ff;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px rgb(113, 174, 199);
+            min-height: 40px;
+            min-width: 120px;
+            font-size: larger;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #446cda;
+            transition: 0.7s;
+        }
+
+input {
+    background-color: #fff;
+    color: deeppink;
+    font-size: larger;
+}
+th {
+    background-color: #ff3399;
+    color: white;
+    font-size: larger;
+}
+tr:nth-child(even) {
+    background-color: #ff99ff;
+    color: #454545;
+    font-size: larger;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: #33ccff;
+    color: #454545;
+    font-size: larger;
+    text-align: center;
+}
+body {
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+    margin: 10px 0;
+}
