@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/mystyle.css">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Login Page</h1>
+
+    <p>Table: <input type="text" id="login" placeholder="Enter table name"/></p>
+
+    <script>
+    const input = document.getElementById("login");
+    input.addEventListener("input", function() {
+    console.log("Input changed: " + input.value);
+    });
+    </script>
+
+    <div class="buttons">
+        <button  onclick="window.location.href='/table/'+input.value" name="search" type="submit">Search</button>
+        <button onclick="window.location.href='/create/'+input.value" name="create" type="submit">Create</button>
+        <button onclick="window.location.href='/delete/'+input.value" name="delete" type="submit">Delete</button>
+        <button onclick="window.location.href='/update/'+input.value" name="update" type="submit">Update</button>
+    </div>
+
+</div>
+</body>
+</html>
